@@ -1,1 +1,5 @@
 # Week 4 Reflection
+
+This week I was able to complete my data intake, with time to spare to help out as students visited the library. Take intake went well. I will be interested to see what they show with some wrangling and analysis. The charts Google Sheets provides are already proving fruitful. The vast majority of the collection are English-language books featuring animals. I will be interested in merging this data with the Follett metadata to learn about the temporal range of the publications. My guess is the majority of books are over 30 years old.
+
+I got to meet a student who loves the fairytale section. My supervisor said that this student was the inspiration for the audit. They asked for some help finding a Goldilocks book. The only one I had seen that day was from the 1980s and well-loved. I felt a bit guilty giving it to them, but they accepted it graciously. 5 minutes later, I saw them covertly shelve the book and pick out a newer, more appealing one. It was amusing and a good reminder of the need for this audit.
