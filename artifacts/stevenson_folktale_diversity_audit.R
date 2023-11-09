@@ -105,3 +105,6 @@ titles <- da_data %>%
 #diversity_info <- base_diversity_info %>% 
 #  group_by(str_detect(Representation.indicators.from.cover.and.summary, rep_indicators)) %>% 
 #  summarize(n=n())
+
+#find break up of representation of humans v animals in stories around the world (using case_when()????)
+#Find avg age of books for each identity group
