@@ -4,4 +4,4 @@ My name is Connor Franklin Rey. I am a second-year residential student in the Un
 
 The [weekly reflections folder](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/weekly_reflections) will contain written reflections of the week.
 
-The artifacts folder will contain documentation of my work.
+The [artifacts](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts) folder will contain documentation of my work.
