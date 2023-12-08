@@ -157,6 +157,29 @@ main_categories <- c("animals and/or mythical creatures","","race/ethnicity","ec
 #filter out for main diversity categories collected from audit 
 main_categories_info <- diversity_info %>% filter(Representation.indicators.from.cover.and.summary %in% main_categories)
 
+#investigate "intersectionality score" of books. I downloaded a csv of folktale_circulation to filter materials to set weeding priorities. Using the [=REGEXREPLACE(B2,"Animals and/or mythical creatures","")] function, I removed animals from list for consideration, then I used [=COUNTA(SPLIT(D2,",")) - NOT(LEN(D2))] to count the number of identities logged in the Representation indicators column. I re-uploaded this dataset to get a general sense of the intersectionality of the collection. Though I do not think the data available is the best indicator, because datapoints are often overlapping.
+intersectionality_info <- read.csv("/Users/connor/Desktop/College/UW/FQ23/DFW-diversity-audit/folktale_weeding_suggestions.csv" , stringsAsFactors = F)
+
+intersectionality_info_grouped <- intersectionality_info %>% 
+  group_by(intersectionality_score_no_animals) %>% 
+  count(intersectionality_score_no_animals)
+
+ggplot(data = intersectionality_info_grouped) +
+  geom_col(mapping = aes(x = intersectionality_score_no_animals,
+                         y = n))
+
+#intersectionality score by year
+intersectionality_info_by_year_grouped <- intersectionality_info %>% 
+  group_by(Publication.Year , intersectionality_score_no_animals) %>% 
+  count(intersectionality_score_no_animals)
+
+ggplot(data = intersectionality_info_by_year_grouped) +
+  geom_line(mapping = aes(x = Publication.Year,
+                          y = n,
+                          color = intersectionality_score_no_animals))
+
+# Below is scratch that did not end up working:
+
 # Add new column if racial diversity present for title
 #da_data <- da_data %>% 
 #  mutate(has_people = 
