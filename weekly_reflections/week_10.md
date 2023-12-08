@@ -1,1 +1,0 @@
-This was my last week at Stevenson, and it was Scholastic Book Fair week!! I did not get a lot of work done on the project while I was at Stevenson, but I had a lot of fun helping out with the fair. It was interesting to see the fair as an adult, and see how it has changed since I was an elementary school student.
