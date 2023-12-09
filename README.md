@@ -3,7 +3,7 @@
 ## Table of Contents
 
 1. [General Information](#general-information)
-2. [Repository Contents](#repository-contents)
+2. [Atrifact Repository Contents](#artifact-repository-contents)
 3. [Data Dictionary](#data-dictionary)
 4. [Metadata](#metadata)
 5. [Contact](#contact)
@@ -16,15 +16,15 @@ The [weekly reflections folder](https://github.com/c-f-rey/lis_590_dfw_diversity
 
 The [artifacts](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts) folder contains documentation of my work. Including the following:
 
-## Repository Contents:
+## Artifact Repository Contents:
 | Folder | Filename | Description |
 | --- | --- | --- |
 | [artifacts](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts) | Diversity Audit Project Report | This is the final report that was turned in to the site supervisor. It shares the findings of the audit, as well as recommended priorities for weeding and collection development. This report was [originally posted with interactive visualizations on Medium](https://medium.com/@franklinreyconnor/diversity-audit-of-stevenson-elementary-school-librarys-folktale-collection-b1d77c874ae0), but a PDF copy has been made available here.|
 | [artifacts](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts) | [folktale_weeding_suggestions.csv](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/folktale_weeding_suggestions.csv) | This is a list of the folktale collection catalog, ordered from highest priority of weeding to lowest utilizing the criteria specified in the above project report. |
 | [artifacts](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts) | [stevenson_folktale_diversity_audit.R](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/stevenson_folktale_diversity_audit.R) | This is the script I used to conduct the computational analysis of the collection data. The computation was always done locally on my computer and some filenames have been changed since I last worked on it, so some tweaking would be needed to recreate my work. I hope the code is well-commented enough to provide proper context. |
-| [data](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts/data) | [folktale_collection_catalog.csv](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/data/folktale_collection_catalog.csv) | |
-| [data](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts/data) | [folktale_collection_circulation_report.csv](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/data/folktale_collection_circulation_report.csv) | |
-| [data](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts/data) | [folktale_collection_diversity_data.csv](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/data/folktale_collection_diversity_data.csv) | |
+| [data](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts/data) | [folktale_collection_catalog.csv](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/data/folktale_collection_catalog.csv) | This is a copy of the bibliographic information of the folktale collection from the library catalog. |
+| [data](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts/data) | [folktale_collection_circulation_report.csv](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/data/folktale_collection_circulation_report.csv) | This is a copy of a circulation report of the books in the folktale collection, tallying the total number of checkouts for each book. |
+| [data](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts/data) | [folktale_collection_diversity_data.csv](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/data/folktale_collection_diversity_data.csv) | This is the dataset I collected to record the diversity within the collection.  My methodology is explained in the project report. |
 
 
 ## Data Dictionary
