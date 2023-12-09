@@ -10,7 +10,7 @@
 
 ## General Information
 
-My name is Connor Franklin Rey. I am a second-year residential student in the University of Washington iSchool's MLIS program. This is my artifact repository for my Fall '23 Directed Field Work with Stevenson Elementary School Library. The focus of this DFW is to conduct a diversity audit of the fairytale section, suggest books for weeding, and -- if time allows -- suggest purchases to fill gaps in the collection.
+My name is Connor Franklin Rey. I am a second-year residential student in the University of Washington iSchool's MLIS program. This is the artifact repository for my Fall '23 Directed Field Work with Stevenson Elementary School Library. The focus of this DFW is to conduct a diversity audit of the fairytale section, suggest books for weeding, and -- if time allows -- suggest purchases to fill gaps in the collection.
 
 The [weekly reflections folder](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/weekly_reflections) contains written reflections from each week, as well as the final reflection on the 10-week project, which may help provide context on the work behind this project.
 
@@ -26,20 +26,33 @@ The [artifacts](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main
 | [data](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts/data) | [folktale_collection_circulation_report.csv](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/data/folktale_collection_circulation_report.csv) | This is a copy of a circulation report of the books in the folktale collection, tallying the total number of checkouts for each book. |
 | [data](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts/data) | [folktale_collection_diversity_data.csv](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/data/folktale_collection_diversity_data.csv) | This is the dataset I collected to record the diversity within the collection.  My methodology is explained in the project report. |
 
-
 ## Data Dictionary
 
 The following data dictionary explains the different variables in all datasets used in this diversity audit, the specific file(s) any variable is contained within is specified in the "File(s)" column.
 
-| Variable | Variable Type | Allowed Values | Description | File(s) |
-| ------ | ------ | ------ | ----- | ----- |
+| Variable | Variable Type | Description | File(s) |
+| ------ | ------ | ------ | ----- | 
+| Barcode | integer | The barcode associated with each book. Used as the main identifier to link records across datasets (except for the circulation report dataset, which did not allow for the download of associated barcode information, so that dataset was linked by the Title/Subtitle variable. | folktale_collection_catalog.csv , folktale_collection_diversity_data.csv , folktale_weeding_suggestions.csv |
+| Call Number | string | The Dewey decimal call number used within the library | folktale_collection_catalog.csv , folktale_weeding_suggestions.csv |
+| Author | string | The primary creator of the work | folktale_collection_catalog.csv , folktale_weeding_suggestions.csv |
+| Publication Year | date | The year of publication | folktale_collection_catalog.csv , folktale_weeding_suggestions.csv |
+| Subject | string | The first LoC Subject Heading associated with each book | folktale_collection_catalog.csv , folktale_weeding_suggestions.csv |
+| Title/Subtitle | string | The title and subtitle of the book | folktale_collection_catalog.csv , folktale_collection_circulation_report.csv , folktale_weeding_suggestions.csv |
+| Checkouts - Local Patrons | integer | Total checkouts from student library users for associated book since December 2, 2023 (when data was pulled) | folktale_collection_circulation_report.csv , folktale_weeding_suggestions.csv |
+| Checkouts - Visiting Patrons | integer | Total checkouts from visiting library users for associated book since December 2, 2023 (when data was pulled) | Not utilized when analyzing the circulation of collection. | folktale_collection_circulation_report.csv , folktale_weeding_suggestions.csv |
+| Timestamp	| date | The time when I recorded the diversity information associated with the book. | folktale_collection_diversity_data.csv , folktale_weeding_suggestions.csv |
+| Representation indicators from cover and summary | string | Tags given to indicate instances of diverse representation in the depiction of characters or central themes of the story. </br> Definition of tags: </br> Any additional tags were gathered from LoC subject headings seen on the publication page of the book. See [project report](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/stevenson_elementary_school_library_diversity_audit_report.pdf) for further explanation of methodology. For future audits, I would recommend recording each tag as a T/F value in its own column for easier computational analysis. | folktale_collection_diversity_data.csv , folktale_weeding_suggestions.csv |
+| Representation.indicators.from.cover.and.summary_no_animals | string | Representation information with "Animals and/or mythical creatures" removed | folktale_weeding_suggestions
+| intersectionality_score | integer | A count of the number of diverse representation tags associated with a book. Used to gain a general sense of intersectional diversity -- or lack their of -- and determine priorities for weeding. A book with no tags in its "Representation indicators from cover and summary" column receives a score of 0 and is considered high priority for weeding. | folktale_weeding_suggestions.csv |
+| intersectionality_score_no_animals | integer | Intersectionality score calculated from Representation.indicators.from.cover.and.summary_no_animals column | folktale_weeding_suggestions.csv |
+| Language | string | The language or languages of the book. | folktale_collection_diversity_data.csv , folktale_weeding_suggestions.csv|
 
 ## Metadata
 Metadata Schema: [Project Open Data](https://resources.data.gov/resources/dcat-us)
 | Attribute | Value |
 | --- | --- |
-| title |  |
-| description |  |
+| title | LIS 590: Directed Fieldwork at Stevenson Elementary School Conducting Diversity Audit |
+| description | This is the artifact repository for my Fall '23 Directed Field Work with Stevenson Elementary School Library. The focus of this DFW is to conduct a diversity audit of the fairytale section and suggest priorities for weeding collection development. |
 | keyword | diversity, diversity audit, school library, children's literature, folktales, library data|
 | issued | 11/27/2023 |
 |modified| 12/08/2023|
@@ -53,7 +66,6 @@ Metadata Schema: [Project Open Data](https://resources.data.gov/resources/dcat-u
 |theme| Diversity in school library collections |
 |accessURL |lis_590_dfw_diversity_audit|
 |format|CSV|
-
 
 ## Contact
 Connor Franklin Rey  franklinreyconnor@gmail.com
