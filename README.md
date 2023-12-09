@@ -2,6 +2,12 @@
 
 ## Table of Contents
 
+1. [General Information](#general-information)
+2. [Repository Contents](#repository-contents)
+3. [Data Dictionary](#data-dictionary)
+4. [Metadata](#metadata)
+5. [Contact](#contact)
+
 ## General Information
 
 My name is Connor Franklin Rey. I am a second-year residential student in the University of Washington iSchool's MLIS program. This is my artifact repository for my Fall '23 Directed Field Work with Stevenson Elementary School Library. The focus of this DFW is to conduct a diversity audit of the fairytale section, suggest books for weeding, and -- if time allows -- suggest purchases to fill gaps in the collection.
@@ -10,21 +16,16 @@ The [weekly reflections folder](https://github.com/c-f-rey/lis_590_dfw_diversity
 
 The [artifacts](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts) folder contains documentation of my work. Including the following:
 
+## Repository Contents:
 | Folder | Filename | Description |
 | --- | --- | --- |
 | [artifacts](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts) | Diversity Audit Project Report | This is the final report that was turned in to the site supervisor. It shares the findings of the audit, as well as recommended priorities for weeding and collection development. This report was [originally posted with interactive visualizations on Medium](https://medium.com/@franklinreyconnor/diversity-audit-of-stevenson-elementary-school-librarys-folktale-collection-b1d77c874ae0), but a PDF copy has been made available here.|
-| [artifacts](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts) | [folktale_weeding_suggestions.csv](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/folktale_weeding_suggestions.csv) | This is a list of the folktale collection catalog, ordered from highest priority of weeding to lowest utilizing the criteria specified in the project report. |
+| [artifacts](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts) | [folktale_weeding_suggestions.csv](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/folktale_weeding_suggestions.csv) | This is a list of the folktale collection catalog, ordered from highest priority of weeding to lowest utilizing the criteria specified in the above project report. |
 | [artifacts](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts) | [stevenson_folktale_diversity_audit.R](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/stevenson_folktale_diversity_audit.R) | This is the script I used to conduct the computational analysis of the collection data. The computation was always done locally on my computer and some filenames have been changed since I last worked on it, so some tweaking would be needed to recreate my work. I hope the code is well-commented enough to provide proper context. |
 | [data](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts/data) | [folktale_collection_catalog.csv](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/data/folktale_collection_catalog.csv) | |
 | [data](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts/data) | [folktale_collection_circulation_report.csv](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/data/folktale_collection_circulation_report.csv) | |
 | [data](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts/data) | [folktale_collection_diversity_data.csv](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/data/folktale_collection_diversity_data.csv) | |
 
-
-- Datasets utilized for analysis including:
-    - 
-- R script used for computational analysis:
-- Project report:
-- Weeding suggestions:
 
 ## Data Dictionary
 
