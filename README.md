@@ -37,3 +37,4 @@ Datasets() R script used for computational analysis, project report, and weeding
 |format|CSV|
 
 ## Contact
+Connor Franklin Rey  franklinreyconnor@gmail.com
