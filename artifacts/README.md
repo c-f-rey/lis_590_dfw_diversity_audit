@@ -1,11 +1,8 @@
-| Folder | Filename | Description |
+| Filename | Description |
 | --- | --- | --- |
-| [artifacts](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts) | Diversity Audit Project Report | This is the final report that was turned in to the site supervisor. It shares the findings of the audit, as well as recommended priorities for weeding and collection development. This report was [originally posted with interactive visualizations on Medium](https://medium.com/@franklinreyconnor/diversity-audit-of-stevenson-elementary-school-librarys-folktale-collection-b1d77c874ae0), but a PDF copy has been made available here.|
-| [artifacts](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts) | [folktale_weeding_suggestions.csv](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/folktale_weeding_suggestions.csv)
-| [artifacts](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts) | [stevenson_folktale_diversity_audit.R](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/stevenson_folktale_diversity_audit.R)
-| [data](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts/data) | [folktale_collection_catalog.csv](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/data/folktale_collection_catalog.csv) |
-| [data](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts/data) | [folktale_collection_circulation_report.csv](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/data/folktale_collection_circulation_report.csv) |
-| [data](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/tree/main/artifacts/data) | [folktale_collection_diversity_data.csv](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/data/folktale_collection_diversity_data.csv) |
+| Diversity Audit Project Report | This is the final report that was turned in to the site supervisor. It shares the findings of the audit, as well as recommended priorities for weeding and collection development. This report was [originally posted with interactive visualizations on Medium](https://medium.com/@franklinreyconnor/diversity-audit-of-stevenson-elementary-school-librarys-folktale-collection-b1d77c874ae0), but a PDF copy has been made available here.|
+| [folktale_weeding_suggestions.csv](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/folktale_weeding_suggestions.csv)
+| [stevenson_folktale_diversity_audit.R](https://github.com/c-f-rey/lis_590_dfw_diversity_audit/blob/main/artifacts/stevenson_folktale_diversity_audit.R)
 
 ## Data Dictionary
 
